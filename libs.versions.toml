@@ -1,0 +1,9 @@
+[versions]
+
+# https://github.com/google/guava/releases
+googleGuava = "32.1.2-android"
+
+[libraries]
+### External Libs
+# https://github.com/google/guava/releases
+google-guava = { module = "com.google.guava:guava", version.ref = "googleGuava" }
